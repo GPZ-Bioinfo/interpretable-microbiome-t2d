@@ -15,6 +15,8 @@ There are two cohort based on 16s rRNA microbiome sequencing involved in this re
 * SGMP: 968 T2DM or healthy individuals were sampled for fecal 16s rRNA microbiome in hospital.
 
 # introduction of demonstrated jupyter notebooks
+![](https://github.com/GPZ-Bioinfo/interpretable-microbiome-t2d/blob/master/notebooks/images/readme_demo.png)
+
 * ensemble of predictive models
 python-based notebook:
 after loading GGMP and SGMP datasets, random subsampling was applied to develop each sub-model. XGBoost with generated SHAP values were employed to represent contributions of features. Filtering out sub-models with poor performance of AUC.
